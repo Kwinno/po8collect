@@ -1,0 +1,27 @@
+name: Po8Collect
+main: com.Kwinno.Po8collect.Po8collect
+version: 1.0.0
+author: Kwinno
+description: >
+             Plugin implementing teleporting to defined locations.
+             Uses plaintext tele.txt.
+             Created for po8collect on MCNSA
+commands:
+  telelist:
+    description: Lists all defined teleport locations.
+    aliases: [tclist,listtc]
+  teleto:
+    description: Warps the player to a teleport location.
+    aliases: tc
+  teleadd:
+    description: Adds a teleport definition to tele.txt.
+    aliases: ts
+  teleremove:
+    decription: Removes a defined teleport location from tele.txt.
+    aliases: tr
+  po8collect:
+    decription: Help for po8collect.
+    aliases: po8collect
+  dicks:
+    decription: Command for judge.
+    aliases: dicks
